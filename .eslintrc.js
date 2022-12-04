@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['dist', '.next', 'packages/bein'],
+  ignorePatterns: ['dist', 'build'],
   extends: ['@onrewind/eslint-config/frontend'],
   globals: {
     FB: true,
